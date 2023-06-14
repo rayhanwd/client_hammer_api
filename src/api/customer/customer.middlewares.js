@@ -34,11 +34,11 @@ const verifyAccessToken = async (req, res, next) => {
 
                 // Update the response with the new access token
                 res.cookie('access_token', newAccessToken, { httpOnly: false });
-
                 // Continue to the next middleware or route
                 next();
 
             } catch (error) {
+                console.log(error)
                 return res.status(401).json({ error: 'Invalid refresh token' });
             }
         } else {
