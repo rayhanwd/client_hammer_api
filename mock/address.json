@@ -1,0 +1,11 @@
+{
+    "_id": "87654345cycyy",
+    "customerId": "0789334242411",
+    "address": {
+        "street_address": "",
+        "apart_or_unit": "",
+        "city": "",
+        "state": "",
+        "zip": ""
+    }
+} 

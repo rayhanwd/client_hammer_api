@@ -1,0 +1,27 @@
+{
+    "customerId": "87654345cycyy",
+    "orderId": "#4556",
+    "order_details": {
+        "date_time": "05/24/2023, 19:23",
+        "product_list": [
+            {
+                "name": "Halotestin 10mg",
+                "url": "http/aaa/com/Halotestin.png",
+                "quantity": 2,
+                "n_price": 45.00,
+                "s_price": 35.00
+            }
+        ]
+    },
+    "ship_type": "",
+    "coupon_used": "SALE10",
+    "costs": {
+        "total_paid": 120.00,
+        "ship_cost": 45.99,
+        "total_saving": 30.00
+    },
+    "status_tracking": {
+        "status": 0,
+        "track_number": ""
+    }
+}

@@ -1,0 +1,604 @@
+[
+    {
+        "name": "Testosterone Cypionate",
+        "dose": "2500 mg/10mL | 250 mg/mL",
+        "normalPrice": 64.00,
+        "salePrice": {
+            "sales": true,
+            "value": 24.00
+        },
+        "stock": true,
+        "feature": true,
+        "category": [
+            "injectables"
+        ],
+        "description": "Pure testosterone attached to the cypionate ester in a non-GMO cottonseed oil. This application is a great option for Testosterone Replacement Therapy as well as bodybuilding.",
+        "benefits": "Lean Mass, Fat burning, Increased Strength, Increased Libido, Increased Endurance, Focus and Confidence, Increased Endurance, Faster Recovery, Promotes better sleep, Sexual Enhancement",
+        "effectiveTime": "12 days",
+        "keywords": "Testosterone, Cypionate, Cyp, TRT, Test, Sex, Sexual, Increase, Libido, Strength, Endurance, Mass, Lean, Recovery, Workout, Enhanced, Energy, Erection, Erectile, Performance, Bulk, ED, Power, Powerful, Fat, Loss, Lose, Weight, Cut, Cutting, Gain, Focus, Confidence, Endurance, Speed, Injectable, Oil, Testosterone Cypionate, Test Cypionate, Test Cyp, Testosterone Cyp"
+    },
+    {
+        "name": "Testosterone Enanthate",
+        "dose": "3000 mg/10mL | 300 mg/mL",
+        "normalPrice": 64.00,
+        "salePrice": {
+            "sales": true,
+            "value": 24.00
+        },
+        "stock": true,
+        "feature": true,
+        "category": [
+            "injectables"
+        ],
+        "description": "Pure testosterone attached to the enanthate ester in a non-GMO cottonseed oil. This application is a great option for Testosterone Replacement Therapy as well as bodybuilding.",
+        "benefits": "Lean Mass, Fat burning, Increased Strength, Increased Libido, Increased Endurance, Focus and Confidence, Increased Endurance, Faster Recovery, Promotes better sleep, Sexual Enhancement",
+        "effectiveTime": "10.5 days",
+        "keywords": "Testosterone, Enanthate, Enth, TRT, Test, Sex, Sexual, Increase, Libido, Strength, Endurance, Mass, Lean, Recovery, Workout, Enhanced, Energy, Erection, Erectile, Performance, Bulk, ED, Power, Powerful, Fat, Loss, Lose, Weight, Cut, Cutting, Gain, Focus, Confidence, Endurance, Speed, Injectable, Oil, Testosterone Enanthate, Test Enanthate, Test Enan, Testosterone Enan"
+    },
+    {
+        "name": "Testosterone Propionate",
+        "dose": "1000 mg/10mL | 100 mg/mL",
+        "normalPrice": 62.00,
+        "salePrice": {
+            "sales": true,
+            "value": 22.00
+        },
+        "stock": true,
+        "feature": true,
+        "category": [
+            "injectables"
+        ],
+        "description": "Pure testosterone attached to the propionate ester in a non-GMO cottonseed oil. This application is best suited to bodybuilding, powerlifting and all performance based athletics.",
+        "benefits": "Lean Mass, Fat burning, Increased Strength, Increased Libido, Increased Endurance, Focus and Confidence, Increased Endurance, Faster Recovery, Promotes better sleep, Sexual Enhancement",
+        "effectiveTime": "3 - 4.5 days",
+        "keywords": "Testosterone, Propionate, Prop, Test, Sex, Sexual, Increase, Libido, Strength, Endurance, Mass, Lean, Recovery, Workout, Enhanced, Energy, Erection, Erectile, Performance, Bulk, ED, Power, Powerful, Fat, Loss, Lose, Weight, Cut, Cutting, Gain, Focus, Confidence, Endurance, Speed, Fast, Injectable, Oil, Testosterone Propionate, Test Prop, Testosterone Prop, Test Propionate"
+    },
+    {
+        "name": "Testosterone Suspension",
+        "dose": "1000 mg/10mL | 100 mg/mL",
+        "normalPrice": 64.00,
+        "salePrice": {
+            "sales": true,
+            "value": 24.00
+        },
+        "stock": true,
+        "feature": true,
+        "category": [
+            "injectables"
+        ],
+        "description": "Pure testosterone with no ester attached in a sterilized water-based application. Fast acting and potent, great for use as a pre-workout or for sexual enhancement.",
+        "benefits": "Lean Mass, Fat burning, Increased Strength, Increased Libido, Increased Endurance, Focus and Confidence, Increased Endurance, Faster Recovery, Promotes better sleep, Sexual Enhancement",
+        "effectiveTime": "2 - 24 hours",
+        "keywords": "Testosterone, Suspension, Test, Sex, Sexual, Increase, Libido, Strength, Endurance, Mass, Lean, Recovery, Workout, Enhanced, Energy, Erection, Erectile, Performance, Bulk, ED, Power, Powerful, Fat, Loss, Lose, Weight, Cut, Cutting, Gain, Focus, Confidence, Endurance, Speed, Fast, Acting, PWO, Injectable, Water, Based, Water Based, Testosterone Suspension, Test Sus, Sus, Testosterone Sus"
+    },
+    {
+        "name": "Testosterone No Ester",
+        "dose": "1000 mg/10mL | 100 mg/mL",
+        "normalPrice": 50.00,
+        "salePrice": {
+            "sales": true,
+            "value": 20.00
+        },
+        "stock": true,
+        "feature": true,
+        "category": [
+            "injectables"
+        ],
+        "description": "Pure testosterone in a non-GMO cottonseed-oil injectable application with no ester attached. Fast acting and potent, great for use as a pre-workout or for sexual enhancement.",
+        "benefits": "Lean Mass, Fat burning, Increased Strength, Increased Libido, Increased Endurance, Focus and Confidence, Increased Endurance, Faster Recovery, Promotes better sleep, Sexual Enhancement",
+        "effectiveTime": "2 - 24 hours",
+        "keywords": "Testosterone, No, Ester, No Ester, Test, Sex, Sexual, Increase, Libido, Strength, Endurance, Mass, Lean, PWO, Pre, Workout, Enhanced, Energy, Erection, Erectile, Performance, Bulk, ED, Power, Powerful, Fat, Loss, Lose, Weight, Cut, Cutting, Gain, Focus, Confidence, Endurance, Speed, Fast, Acting, Injectable, Oil, TNE, Testosterone No Ester, Test No Ester, Testosterone No Ester, Pure Test"
+    },
+    {
+        "name": "T400 (Testosterone Blend)",
+        "dose": "4000 mg/10mL | 400 mg/mL",
+        "normalPrice": 72.00,
+        "salePrice": {
+            "sales": true,
+            "value": 28.00
+        },
+        "stock": true,
+        "feature": true,
+        "category": [
+            "injectables"
+        ],
+        "description": "T-400 blend offers short, medium, and long term releases of testosterone. This potent blend promotes high test levels with fewer injections and lower oil volume per injection.",
+        "benefits": "Lean Mass, Fat burning, Increased Strength, Increased Libido, Increased Endurance, Focus and Confidence, Increased Endurance, Faster Recovery, Promotes better sleep, Sexual Enhancement",
+        "effectiveTime": "15 days",
+        "keywords": "Testosterone, 400, high, Potent, Potency, Mg, Mgs, Cypionate, Propionate, Decanoate, Enanthate, Deca, Cyp, Prop, Enan, Deca, Test, Sex, Sexual, Increase, Libido, Strength, Endurance, Mass, Lean, Recovery, Workout, Enhanced, Energy, Erection, Erectile, Performance, Bulk, ED, Power, Powerful, Fat, Loss, Lose, Weight, Cut, Cutting, Gain, Focus, Confidence, Endurance, Speed, Fast, Long, Medium, Acting, Injectable, Oil, Testosterone Blend, T400, 400mg, High Dose, Testosterone Mix, Test Mix, Test Blend, Test Blend 400, Testosterone 400, Test 400"
+    },
+    {
+        "name": "Sustanon",
+        "dose": "2500 mg/10mL | 250 mg/mL",
+        "normalPrice": 68.00,
+        "salePrice": {
+            "sales": true,
+            "value": 26.00
+        },
+        "stock": true,
+        "feature": true,
+        "category": [
+            "injectables"
+        ],
+        "description": "Pure testosterone attached to 4 different esters in a non-GMO cottonseed oil. This is the Auctus version of the extremely popular testosterone blend. Provides short, medium, and long term releases of testosterone. This popular blend promotes extreme muscle growth and has been a bodybuilding favorite for decades due to its effectiveness at promoting lean mass quickly.",
+        "benefits": "Lean Mass, Fat burning, Increased Strength, Increased Libido, Increased Endurance, Focus and Confidence, Increased Endurance, Faster Recovery, Promotes better sleep, Sexual Enhancement",
+        "effectiveTime": "15 days",
+        "keywords": "Testosterone, Sustanon, Sust, Potent, Potency, Mg, Mgs, Cypionate, Propionate, Decanoate, isocaproate, Deca, iso, Prop, Phenyl, Deca, Test, Sex, Sexual, Increase, Libido, Strength, Endurance, Mass, Lean, Recovery, Workout, Enhanced, Energy, Erection, Erectile, Performance, Bulk, ED, Power, Powerful, Fat, Loss, Lose, Weight, Cut, Cutting, Gain, Focus, Confidence, Endurance, Speed, Fast, Long, Medium, Acting, Injectable, Oil"
+    },
+    {
+        "name": "Equipoise",
+        "dose": "3000 mg/10mL | 300 mg/mL",
+        "normalPrice": 69.00,
+        "salePrice": {
+            "sales": true,
+            "value": 39.00
+        },
+        "stock": true,
+        "feature": true,
+        "category": [
+            "injectables"
+        ],
+        "description": "Boldenone Undecylenate in non-GMO cottonseed oil. Commonly known as Equipoise, this testosterone derivative is highly effective at increasing protein synthesis and red blood cell count. EQ is a pure mass building compound known for thick, lean gains.",
+        "benefits": "Thick & Lean Mass, Increased Strength, Increased Endurance, Faster Recovery",
+        "effectiveTime": "14 days",
+        "keywords": "EQ, Equipoise, Increase, Strength, Endurance, Thick, Mass, Lean, Recovery, Workout, Enhanced, Energy, Performance, Bulk, ED, Power, Powerful, Weight, Gain, Endurance, Speed, Long, Acting, Injectable, Oil"
+    },
+    {
+        "name": "Deca",
+        "dose": "3000 mg/10mL | 300 mg/mL",
+        "normalPrice": 79.00,
+        "salePrice": {
+            "sales": true,
+            "value": 32.00
+        },
+        "stock": true,
+        "feature": true,
+        "category": [
+            "injectables"
+        ],
+        "description": "Nandrolone Decanoate in non-GMO cottonseed oil. Deca is a classic mass-building compound.",
+        "benefits": "Mass Building, Joint Relief, Increased Strength, Increased Endurance, Faster Recovery",
+        "effectiveTime": "15 days",
+        "keywords": "Deca, Durabolin, Deca Durabolin, Nandrolone, Nandro, Increase, Strength, Endurance, Mass, Lean, Recovery, Workout, Enhanced, Performance, Bulk, Power, Powerful, Weight, Gain, Endurance, Joints, Joint, Relief, Long, Acting, Injectable, Oil, 19nor"
+    },
+    {
+        "name": "NPP",
+        "dose": "1000 mg/10mL | 100 mg/mL",
+        "normalPrice": 66.00,
+        "salePrice": {
+            "sales": true,
+            "value": 32.00
+        },
+        "stock": true,
+        "feature": true,
+        "category": [
+            "injectables"
+        ],
+        "description": "Nandrolone PhenylPropionate in non-GMO cottonseed oil. NPP is essentially the shorter acting version of Deca. Like Deca, NPP is a classic mass-building compound.",
+        "benefits": "Mass Building, Joint Relief, Increased Strength, Increased Endurance, Faster Recovery",
+        "effectiveTime": "4.5 days",
+        "keywords": "NPP, Nandrolone, Nandro, Phenyl, Prop, Propionate, Increase, Strength, Endurance, Mass, Lean, Recovery, Workout, Enhanced, Performance, Bulk, Power, Powerful, Weight, Gain, Endurance, Joints, Joint, Relief, Fast, Acting, Injectable, Oil, 19nor"
+    },
+    {
+        "name": "Primobolan",
+        "dose": "1000 mg/10mL | 100 mg/mL",
+        "normalPrice": 109.00,
+        "salePrice": {
+            "sales": true,
+            "value": 65.00
+        },
+        "stock": true,
+        "feature": true,
+        "category": [
+            "injectables"
+        ],
+        "description": "Methenolone attached to the enanthate ester in non-GMO cottonseed oil. Commonly known as Primobolan, this is one of the most sought-after anabolics on the market. Developed for human use to combat muscle wasting diseases, Primo is known for its low androgenic activity, making it a popular lean-mass anabolic compound for both men and women alike.",
+        "benefits": "Lean Mass, Faster Recovery, Increased Immune Function, Fat Loss, Promotes overall health",
+        "effectiveTime": "10.5 days",
+        "keywords": "Primo, Primobolan, Immunity, Immune, System, Increase, Strength, Endurance, Mass, Lean, Recovery, Workout, Enhanced, Performance, Bulk, Bulking, Fat, Loss, Power, Powerful, Weight, Gain, Endurance, Long, Acting, Injectable, Oil"
+    },
+    {
+        "name": "Masteron Propionate",
+        "dose": "1000 mg/10mL | 100 mg/mL",
+        "normalPrice": 70.00,
+        "salePrice": {
+            "sales": true,
+            "value": 29.00
+        },
+        "stock": true,
+        "feature": true,
+        "category": [
+            "injectables"
+        ],
+        "description": "Drostanolone attached to the propionate in non-GMO cottonseed oil. Masteron is especially good at helping you burn off the most stubborn final ounces of fat that can be hard to shift with other compounds while helping you get the most hard and dry look possible because this compound comes without the issue of fluid retention. Masteron is also known to significantly increase libido.",
+        "benefits": "Fat Burning, Muscle Density, Muscle Definition, Lean Mass, Increased Libido",
+        "effectiveTime": "3 - 4.5 days",
+        "keywords": "Masteron, Mast, Propionate, Prop, Sex, Sexual, Increase, Libido, Definition, Density, Endurance, Mass, Lean, Recovery, Workout, Enhanced, Energy, Erection, Erectile, Performance, ED, Powerful, Fat, Loss, Lose, Weight, Cut, Cutting, Gain, Confidence, Endurance, Fast, Acting, Injectable, Oil"
+    },
+    {
+        "name": "Masteron Enanthate",
+        "dose": "2000 mg/10mL | 200 mg/mL",
+        "normalPrice": 78.00,
+        "salePrice": {
+            "sales": true,
+            "value": 32.00
+        },
+        "stock": true,
+        "feature": true,
+        "category": [
+            "injectables"
+        ],
+        "description": "Drostanolone attached to the enanthate ester in non-GMO cottonseed oil. Masteron is especially good at helping you burn off the most stubborn final ounces of fat that can be hard to shift with other compounds while helping you get the most hard and dry look possible because this compound comes without the issue of fluid retention. Masteron is also known to significantly increase libido.",
+        "benefits": "Fat Burning, Muscle Density, Muscle Definition, Lean Mass, Increased Libido",
+        "effectiveTime": "10.5 days",
+        "keywords": "Masteron, Mast, Enanthate, Enan, Prop, Sex, Sexual, Increase, Libido, Definition, Density, Endurance, Mass, Lean, Recovery, Workout, Enhanced, Energy, Erection, Erectile, Performance, ED, Powerful, Fat, Loss, Lose, Weight, Cut, Cutting, Gain, Confidence, Endurance, Fast, Acting, Injectable, Oil"
+    },
+    {
+        "name": "Trenbolone Acetate",
+        "dose": "1000 mg/10mL | 100 mg/mL",
+        "normalPrice": 65.00,
+        "salePrice": {
+            "sales": true,
+            "value": 29.00
+        },
+        "stock": true,
+        "feature": true,
+        "category": [
+            "injectables"
+        ],
+        "description": "Trenbolone attached to the acetate ester in a non-GMO cottonseed oil. Trenbolone is a nandrolone derivative often referred to as the 'King' of anabolic compounds. Trenbolone is 5X more anabolic than testosterone and is by far the fastest muscle-building injectable compound. Trenbolone also has a fat-burning effect. It is excellent for both increasing mass and creating definition. This compound is a favorite for bodybuilders and power-lifters.",
+        "benefits": "Rapid Muscle Building, Rapid Fat burning, Rapid Strength Increases, Highly Increased Libido, Increased Nutrient Partitioning, Increased Confidence, Promotes Intense Workouts",
+        "effectiveTime": "3 days",
+        "keywords": "Trenbolone, tren, Acetate, Ace, Nandrolone, Nandro, Nor-19, Sex, Sexual, Increase, Libido, Strength, Endurance, Mass, Lean, Intense, Workout, Enhanced, Energy, Performance, Bulk, Power, Powerful, Fat, Loss, Lose, Weight, Cut, Cutting, Gain, Focus, Confidence, Fast, Acting, Injectable, Oil"
+    },
+    {
+        "name": "Trenbolone Enanthate",
+        "dose": "2000 mg/10mL | 200 mg/mL",
+        "normalPrice": 75.00,
+        "salePrice": {
+            "sales": true,
+            "value": 35.00
+        },
+        "stock": true,
+        "feature": true,
+        "category": [
+            "injectables"
+        ],
+        "description": "Trenbolone attached to the enanthate ester in a non-GMO cottonseed oil. Trenbolone is a nandrolone derivative often referred to as the 'King' of anabolic compounds. Trenbolone is 5X more anabolic than testosterone and is by far the fastest muscle-building injectable compound. Trenbolone also has a fat-burning effect. It is excellent for both increasing mass and creating definition. This compound is a favorite for bodybuilders and power-lifters.",
+        "benefits": "Rapid Muscle Building, Rapid Fat burning, Rapid Strength Increases, Highly Increased Libido, Increased Nutrient Partitioning, Increased Confidence, Promotes Intense Workouts",
+        "effectiveTime": "10.5 days",
+        "keywords": "Trenbolone, tren, Enanthate, Enan, Nandrolone, Nandro, Nor-19, Sex, Sexual, Increase, Libido, Strength, Endurance, Mass, Lean, Intense, Workout, Enhanced, Performance, Bulk, Power, Powerful, Fat, Loss, Lose, Weight, Cut, Cutting, Gain, Focus, Confidence, Long, Acting, Injectable, Oil"
+    },
+    {
+        "name": "Pfizer Depo-Test",
+        "dose": "2000 mg/10mL | 200 mg/mL",
+        "normalPrice": 120.00,
+        "salePrice": {
+            "sales": true,
+            "value": 80.00
+        },
+        "stock": true,
+        "feature": true,
+        "category": [
+            "injectables"
+        ],
+        "description": "Pure testosterone attached to the cypionate ester in a non-GMO cottonseed oil. This application is a great option for Testosterone Replacement Therapy as well as bodybuilding. This is Pfizer’s official brand name injectable testosterone product.",
+        "benefits": [
+            "Lean Mass",
+            "Fat burning",
+            "Increased Strength",
+            "Increased Libido",
+            "Increased Endurance",
+            "Focus and Confidence",
+            "Faster Recovery",
+            "Promotes better sleep",
+            "Sexual Enhancement"
+        ],
+        "dose_instructions": "200mg/ml",
+        "effectiveTime": "12 days",
+        "keywords": [
+            "Testosterone",
+            "Cypionate",
+            "Cyp",
+            "TRT",
+            "Test",
+            "Sex",
+            "Sexual",
+            "Increase",
+            "Libido",
+            "Strength",
+            "Endurance",
+            "Mass",
+            "Lean",
+            "Recovery",
+            "Workout",
+            "Enhanced",
+            "Energy",
+            "Erection",
+            "Erectile",
+            "Performance",
+            "Bulk",
+            "ED",
+            "Power",
+            "Powerful",
+            "Fat",
+            "Loss",
+            "Lose",
+            "Weight",
+            "Cut",
+            "Cutting",
+            "Gain",
+            "Focus",
+            "Confidence",
+            "Endurance",
+            "Speed",
+            "Injectable",
+            "Oil",
+            "Testosterone Cypionate",
+            "Test Cypionate",
+            "Test Cyp",
+            "Testosterone Cyp",
+            "Pfizer",
+            "Pharma"
+        ]
+    },
+    {
+        "name": "Parabolan (Tren Hex)",
+        "dose": "1000 mg/10mL | 100 mg/mL",
+        "normalPrice": 105.00,
+        "salePrice": {
+            "sales": true,
+            "value": 65.00
+        },
+        "stock": true,
+        "feature": true,
+        "category": [
+            "injectables"
+        ],
+        "description": "Trenbolone attached to the hexahydrobenzylcarbonate ester in a non-GMO cottonseed oil. Trenbolone is a nandrolone derivative often referred to as the 'King' of anabolic compounds. Tren Hex (Parabolan) is the only application of trenbolone ever created for human use. This long-ester, slow-release version of trenbolone is a favorite of many generations of bodybuilders. Parabolan is highly sought-after for its traditionally milder side effects due to the slower release provided by the hexahydrobenzylcarbonate ester. Trenbolone is 5X more anabolic than testosterone and is by far the fastest muscle-building injectable compound. Trenbolone also has a fat-burning effect. It is excellent for both increasing mass and creating definition. This compound is considered by many to be the superior application of trenbolone because it is as effective as the acetate and enanthate versions but requires less frequent injections.",
+        "benefits": "Rapid Muscle Building, Rapid Fat burning, Rapid Strength Increases, Highly Increased Libido, Increased Nutrient Partitioning, Increased Confidence, Promotes Intense Workouts",
+        "effectiveTime": "14 days",
+        "keywords": "Parabolan, Para, Trenbolone, tren, hexahydrobenzylcarbonate, hex, Nandrolone, Nandro, Nor-19, Sex, Sexual, Increase, Libido, Strength, Endurance, Mass, Lean, Intense, Workout, Enhanced, Performance, Bulk, Power, Powerful, Fat, Loss, Lose, Weight, Cut, Cutting, Gain, Focus, Confidence, Long, Acting, Injectable, Oil"
+    },
+    {
+        "name": "Trenbolone Mix",
+        "dose": "2000 mg/10mL | 200 mg/mL",
+        "normalPrice": 85.00,
+        "salePrice": {
+            "sales": true,
+            "value": 40.00
+        },
+        "stock": true,
+        "feature": true,
+        "category": [
+            "injectables"
+        ],
+        "description": "An exclusive Auctus blend of trenbolone attached to 3 different esters in a non-GMO cottonseed oil. Trenbolone is a nandrolone derivative often referred to as the 'King' of anabolic compounds. Trenbolone is 5X more anabolic than testosterone and is by far the fastest muscle-building injectable compound. Trenbolone also has a fat-burning effect. It is excellent for both increasing mass and creating definition. Trenbolone is available in short, medium, and long release esters. This blend is a triple-punch of all 3 trenbolone esters in a single application!",
+        "benefits": "Rapid Muscle Building, Rapid Fat burning, Rapid Strength Increases, Highly Increased Libido, Increased Nutrient Partitioning, Increased Confidence, Promotes Intense Workouts",
+        "effectiveTime": "14 days",
+        "keywords": "Trenbolone, tren, Ace, Acetate, Enan, Enanthate, hexahydrobenzylcarbonate, Hex, Blend, Nandrolone, Nandro, Nor-19, Sex, Sexual, Increase, Libido, Strength, Endurance, Mass, Lean, Intense, Workout, Enhanced, Energy, Performance, Bulk, Power, Powerful, Fat, Loss, Lose, Weight, Cut, Cutting, Gain, Focus, Confidence, Fast, Acting, Long, Injectable, Oil"
+    },
+    {
+        "name": "Winstrol Oil (Oil Based)",
+        "dose": "1000 mg/10mL | 100 mg/mL",
+        "normalPrice": 89.00,
+        "salePrice": {
+            "sales": true,
+            "value": 55.00
+        },
+        "stock": true,
+        "feature": true,
+        "category": [
+            "injectables"
+        ],
+        "description": "Pure stanozolol with no ester in a non-GMO cottonseed oil. Winstrol is derived from DHT and this comes with some benefits, particularly that it is a steroid that doesn’t aromatize – so it does not cause estrogen conversion. Used by both men and women in performance-based sports. Winstrol is primarily used for cutting in the bodybuilding world.",
+        "benefits": "Increased Strength, Fat Loss, Increased Speed, Increased Endurance, Faster Recovery",
+        "effectiveTime": "24 hours",
+        "keywords": "Winstrol, Winny, Stanozanol, Stano, Increase, Strength, Endurance, Lean, Recovery, Workout, Enhanced, Energy, Performance, Power, Powerful, Fat, Loss, Lose, Weight, Cut, Cutting, Gain, Endurance, Speed, Fast, Acting, Injectable, Oil, Winnie, Win"
+    },
+    {
+        "name": "Bacteriostatic Water (10mL)",
+        "dose": "10 mL/vial",
+        "normalPrice": 14.00,
+        "salePrice": {
+            "sales": true,
+            "value": 10.00
+        },
+        "stock": true,
+        "feature": true,
+        "category": [
+            "injectables"
+        ],
+        "description": "Bacteriostatic water or \"Bac-Stat Water'' is sterile, non-pyrogenic water that contains 0.9% benzyl alcohol (9 mg/mL) added as a bacteriostatic preservative. This preparation of sterile water and benzyl alcohol (BnOH) allows repeated withdrawals to be made from a single vial. For use in reconstituting powdered medications such as human growth hormone (hgh) and human chorionic gonadotropin (hcg).",
+        "benefits": "Avoid contamination and infection, multi-use vial",
+        "effectiveTime": "This product does not have an effective time. It is mixed with other products, please see the effective time of the products this water is being mixed with to determine this information accurately.",
+        "keywords": "Bacteriostatic, Bac, Stat, Sterile, water, hgh, hcg, human, chorionic, gonadotropin, growth, hormone, Bact Water, Bacteriostatic Water, Sterile Water, Sterile, Clean Water, Mixing, Reconstitute, Reconstituting"
+    },
+    {
+        "name": "Bacteriostatic Water (30mL)",
+        "dose": "30 mL/vial",
+        "normalPrice": 21.00,
+        "salePrice": {
+            "sales": true,
+            "value": 18.00
+        },
+        "stock": true,
+        "feature": true,
+        "category": [
+            "injectables"
+        ],
+        "description": "Bacteriostatic water or \"Bac-Stat Water'' is sterile, non-pyrogenic water that contains 0.9% benzyl alcohol (9 mg/mL) added as a bacteriostatic preservative. This preparation of sterile water and benzyl alcohol (BnOH) allows repeated withdrawals to be made from a single vial. For use in reconstituting powdered medications such as human growth hormone (hgh) and human chorionic gonadotropin (hcg).",
+        "benefits": "Avoid contamination and infection, multi-use vial",
+        "effectiveTime": "This product does not have an effective time. It is mixed with other products, please see the effective time of the products this water is being mixed with to determine this information accurately.",
+        "keywords": "Bacteriostatic, Bac, Stat, Sterile, water, hgh, hcg, human, chorionic, gonadotropin, growth, hormone, Bact Water, Bacteriostatic Water, Sterile Water, Sterile, Clean Water, Mixing, Reconstitute"
+    },
+    {
+        "name": "B12 Injection",
+        "dose": "20000 mcg/10mL | 2000 mcg/mL",
+        "normalPrice": 24.00,
+        "salePrice": {
+            "sales": true,
+            "value": 15.00
+        },
+        "stock": true,
+        "feature": true,
+        "category": [
+            "injectables"
+        ],
+        "description": "Cyano-cobalamin injection in a sterile water-based solution. B12 is a critical vitamin involved in very important processes in your body like energy production and metabolism. It’s currently estimated that as many as 20% of people in the US have B12 deficiency or suboptimal B12 levels in their bodies. The natural form of B12 is methyl-cobalamin, synthetically produced cyano-cobalamin, is quickly converted by the human body to its more bioavailable form, methyl-cobalamin. Since this is water-based, it is often injected with HCG, HGH, or Semaglutide (instead of bacteriostatic water).",
+        "benefits": "Increased Energy, Combats Fatigue, Increased Metabolism, Fat Loss, Improves Mood, Improves Sleep Quality, Balances Circadian Rhythm, Improved concentration, Boosts Immunity, Increased hair growth (head), Helps Prevent Hair Loss (head)",
+        "effectiveTime": "5 - 6 days",
+        "keywords": "Vitamin, B12, Improve, Improves, Energy, Sleep, Metabolism, mood, concentration, immune, immunity, hair, loss, growth, recovery, fat, cut, gain, bulk, muscle, water, Semaglutide, HCG, HGH, Vitamin B12"
+    },
+    {
+        "name": "HCG 11,000IU (with 10mL sterile solvent)",
+        "dose": "11,000iu/vial",
+        "normalPrice": 89.00,
+        "salePrice": {
+            "sales": true,
+            "value": 49.00
+        },
+        "stock": true,
+        "feature": true,
+        "category": [
+            "injectables"
+        ],
+        "description": "Human chorionic gonadotropin as lyophilized powder for reconstitution. This Auctus version of HCG comes with a whopping 11,000 units. Water is already conveniently included, too. HCG is used medically to treat hypogonadism or low testosterone level. It is helpful to steroid users since it performs nearly identically to luteinizing hormone (LH). Because luteinizing hormone is produced in the pituitary gland and has a comparable function to HCG, luteinizing hormone can be thought of as a pituitary analogue to HCG. LH is essential for promoting the synthesis of natural testosterone. HCG use in bodybuilding is mostly during or after a steroid cycle. It is commonly used as Post Cycle Therapy (PCT) to help the body restore the testosterone level.",
+        "benefits": "For Men: Maximizes Penis and Testicle Size, Restores Natural Testosterone Production, Fat Loss, Promotes Hair Growth (Head and Face), Increased Cognition, Increased Mood, Increased Fertility. For Women: Cellulite Reduction, Improved Skin, Reduces Food Cravings, Regulates Metabolism, Increases Mood, Increases Fertility",
+        "effectiveTime": "24 hours - 36 hours",
+        "keywords": "Human, chorionic, gonadotropin, hcg, fat, LH, hormone, cellulite, weight, loss, fertile, fertility, test, testosterone, men, women, cut, cutting, PCT, post, Cycle, Therapy, therapeutic, restore, testes, testical, natural, production, hypogonadism, hypo, gonad, skin, penis, hair, growth, maximize, prevent, preventative, restore, restorative., HCG, human chorionic gonadotropin, children"
+    },
+    {
+        "name": "HCG Box of 10 (5,000iu/vial) (50,000iu total)",
+        "dose": "50,000iu/box | 5,000iu/vial",
+        "normalPrice": 220.00,
+        "salePrice": {
+            "sales": true,
+            "value": 165.00
+        },
+        "stock": true,
+        "feature": true,
+        "category": [
+            "injectables"
+        ],
+        "description": "Human chorionic gonadotropin as lyophilized powder for reconstitution. This product includes 10 individual small vials with 5,000iu of HCG in each vial. This product requires bacteriostatic water for reconstitution. HCG is used medically to treat hypogonadism or low testosterone level. It is helpful to steroid users since it performs nearly identically to luteinizing hormone (LH). Because luteinizing hormone is produced in the pituitary gland and has a comparable function to HCG, luteinizing hormone can be thought of as a pituitary analogue to HCG. LH is essential for promoting the synthesis of natural testosterone. HCG use in bodybuilding is mostly during or after a steroid cycle. It is commonly used as Post Cycle Therapy (PCT) to help the body restore the testosterone level.",
+        "benefits": "For Men: Maximizes Penis and Testicle Size, Restores Natural Testosterone Production, Fat Loss, Promotes Hair Growth (Head and Face), Increased Cognition, Increased Mood, Increased Fertility. For Women: Cellulite Reduction, Improved Skin, Reduces Food Cravings, Regulates Metabolism, Increases Mood, Increases Fertility",
+        "effectiveTime": "24 hours - 36 hours",
+        "keywords": "Human, chorionic, gonadotropin, hcg, fat, LH, hormone, cellulite, weight, loss, fertile, fertility, test, testosterone, men, women, cut, cutting, PCT, post, Cycle, Therapy, therapeutic, restore, testes, testical, natural, production, hypogonadism, hypo, gonad, skin, penis, hair, growth, maximize, prevent, preventative, restore, restorative., HCG, human chorionic gonadotropin, children, HCG box, box"
+    },
+    {
+        "name": "HGH Box of 10 (10iu/vial) (100iu total)",
+        "dose": "100iu/box | 10iu/vial",
+        "normalPrice": 300.00,
+        "salePrice": {
+            "sales": true,
+            "value": 210.00
+        },
+        "stock": true,
+        "feature": true,
+        "category": [
+            "injectables"
+        ],
+        "description": "Human Growth Hormone as lyophilized powder for reconstitution and injection. This product requires bacteriostatic water for reconstitution. HGH is used by both men and women, with virtually the same benefits and side effect profile, to improve body composition and muscle growth, to aid in healing and recovery, to improve athletic performance and for anti-aging effects.",
+        "benefits": "Muscle Gain, Fat Loss, Enhanced Healing, Improved Recovery, Promotes Better Sleep, Improves Skin",
+        "effectiveTime": "9 - 17 hours",
+        "keywords": "Human, Growth, Hormone, HGH, Muscle, Building, fat, loss, lose, gain, mass, lean, recomposition, cut, cutting, recovery, sleep, improve, skin, heal, healing, age, aging, anti, reduction, reduce, grow, men, women, Human Growth Hormone, HGH box, box, diabetic, diabetes"
+    },
+    {
+        "name": "GenliPharma Gentropin 210iu HGH (30iu/vial)",
+        "dose": "210iu/box | 30iu/vial",
+        "normalPrice": 409.00,
+        "salePrice": {
+            "sales": true,
+            "value": 329.00
+        },
+        "stock": true,
+        "feature": true,
+        "category": [
+            "injectables"
+        ],
+        "description": "Human Growth Hormone as lyophilized powder for reconstitution and injection. This product conveniently comes with bacteriostatic water for reconstitution, 7 vials for each of the 7 vials of HGH. HGH is used by both men and women, with virtually the same benefits and side effect profile, to improve body composition and muscle growth, to aid in healing and recovery, to improve athletic performance and for anti-aging effects.",
+        "benefits": "Muscle Gain, Fat Loss, Enhanced Healing, Improved Recovery, Promotes Better Sleep, Improves Skin",
+        "effectiveTime": "9 - 17 hours",
+        "keywords": "Human, Growth, Hormone, HGH, Muscle, Building, fat, loss, lose, gain, mass, lean, recomposition, cut, cutting, recovery, sleep, improve, skin, heal, healing, age, aging, anti, reduction, reduce, grow, men, women, Human Growth Hormone, HGH box, box, diabetic, diabetes"
+    },
+    {
+        "name": "German Labs Somatrope 50iu HGH",
+        "dose": "50iu/vial (total 1 large vial)",
+        "normalPrice": 250.00,
+        "salePrice": {
+            "sales": true,
+            "value": 175.00
+        },
+        "stock": true,
+        "feature": true,
+        "category": [
+            "injectables"
+        ],
+        "description": "Human Growth Hormone as lyophilized powder for reconstitution and injection. This product conveniently comes with bacteriostatic water for reconstitution. This product solely contains 1 HGH vial and 1 bacteriostatic water. HGH is used by both men and women, with virtually the same benefits and side effect profile, to improve body composition and muscle growth, to aid in healing and recovery, to improve athletic performance and for anti-aging effects.",
+        "benefits": [
+            "Muscle Gain",
+            "Fat Loss",
+            "Enhanced Healing",
+            "Improved Recovery",
+            "Promotes Better Sleep",
+            "Improves Skin"
+        ],
+        "effectiveTime": "9 - 17 hours",
+        "keywords": [
+            "Human",
+            "Growth",
+            "Hormone",
+            "HGH",
+            "Muscle",
+            "Building",
+            "fat",
+            "loss",
+            "lose",
+            "gain",
+            "mass",
+            "lean",
+            "recomposition",
+            "cut",
+            "cutting",
+            "recovery",
+            "sleep",
+            "improve",
+            "skin",
+            "heal",
+            "healing",
+            "age",
+            "aging",
+            "anti",
+            "reduction",
+            "reduce",
+            "grow",
+            "men",
+            "women",
+            "Human Growth Hormone",
+            "HGH box",
+            "box",
+            "diabetic",
+            "diabetes",
+            "Pharma"
+        ]
+    },
+    {
+        "name": "Semaglutide (Ozempic) + B12",
+        "dose": "5mg/vial",
+        "normalPrice": 229.00,
+        "salePrice": {
+            "sales": true,
+            "value": 99.00
+        },
+        "stock": true,
+        "feature": true,
+        "category": [
+            "injectables"
+        ],
+        "description": "Semaglutide as lyophilized powder for reconstitution and injection with cyanocobalamin (B12) provided for the reconstitution. Semaglutide (also sold as: Ozempic/Wegovy) is a GLP-1 agonist and was first approved in the U.S in 2017 as a method to improve glycemic control in patients with Type 2 diabetes. Recently, once weekly high-dose Semaglutide has shown to be an effective solution for patients who are having difficulty losing weight. It now carries an FDA indication as an adjunct to a reduced-calorie diet and increased physical activity for chronic weight management in overweight or obese adult patients. Additionally, Vitamin B12 has been shown in studies to assist with the tolerance of treatment with GLP-1 agonists. Two common adverse reactions associated with Semaglutide are nausea and Hypophagia. These reactions have been shown to be significantly reduced when used in conjunction with Vitamin B12.",
+        "benefits": "Delays stomach emptying, Increased feeling of fullness and satisfaction with smaller meal sizes, Slows intestinal motility, Lowers blood sugars (in part by reducing the production of sugar in the liver), Stimulates insulin secretion by the pancreas, Reduced Weight, Lowers Blood Pressure, Kidney Protection, Cardiovascular Protection",
+        "effectiveTime": "9 - 17 hours",
+        "keywords": "Semaglutide, Sema, Glutide, Ozempic, Wegovy, GLP-1, B12, cyano, cobalamin, weight, fat, loss, lose, reduce, reduction, cut, cutting, blood, sugar, diet, injection, obesity, diabetes, diabetic"
+    }
+]
