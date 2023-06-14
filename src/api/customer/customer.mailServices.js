@@ -17,7 +17,7 @@ exports.sendResetPasswordEmail = async (email, resetLink) => {
         subject: 'Reset Password',
         html: `
       <p>Please click the following link to reset your password:</p>
-      <a target="_blank" href="http://localhost:3000/reset_password/${resetLink}">Reset Password</a>
+      <a target="_blank" href="${process.env.PASSWORD_URL}/reset_password/${resetLink}">Reset Password</a>
     `,
     };
 
