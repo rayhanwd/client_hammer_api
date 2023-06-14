@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(cors({
-	origin: 'https://aa-9dfz.onrender.com',
+	origin: 'http://localhost:3000',
 	credentials: true
 }));
 
