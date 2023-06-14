@@ -167,13 +167,7 @@ exports.refreshAccessToken = async (req, res) => {
             res.status(401).json({ error: 'Access token or refresh token not found' });
             return;
         }
-
-        const decodedToken = jwt.decode(accessToken);
-
-        if (!decodedToken || !decodedToken.customerId) {
-            res.status(401).json({ error: 'Invalid access token' });
-            return;
-        }
+        const decodedrefreshToken = jwt.decode(refreshToken);
 
         if (isTokenExpired(accessToken)) {
             if (isTokenExpired(refreshToken)) {
@@ -183,7 +177,7 @@ exports.refreshAccessToken = async (req, res) => {
                 return;
             } else {
                 // If only the access token is expired, generate a new access token
-                const customerId = decodedToken.customerId;
+                const customerId = decodedrefreshToken.customerId;
                 const newAccessToken = generateAccessToken({ customerId });
                 res.cookie('access_token', newAccessToken, { httpOnly: false });
                 res.status(200).json({ msg: 'New token has been created' });
@@ -200,12 +194,13 @@ exports.refreshAccessToken = async (req, res) => {
 };
 
 
-exports.generateResetToken = async (email) => {
+exports.generateResetToken = async (req, res) => {
+    const { email } = req.body;
     try {
         const customer = await Customer.findOne({ email });
 
         if (!customer) {
-            throw new Error('Customer not found');
+            return res.status(404).json({ message: "Customer not found" });
         }
 
         const resetToken = generateResetToken(customer);
@@ -216,13 +211,13 @@ exports.generateResetToken = async (email) => {
         // Call the function to send the reset password email with the reset token
         await sendResetPasswordEmail(customer.email, resetToken);
 
-        return { message: 'Reset token generated and sent successfully' };
-
+        return res.status(200).json({ message: 'We have sent a verification link to your email' });
     } catch (error) {
         console.error(error);
-        throw new Error('Failed to generate reset token');
+        return res.status(500).json({ message: 'Failed to generate reset token' });
     }
 };
+
 
 exports.resetPassword = async (token, password) => {
 

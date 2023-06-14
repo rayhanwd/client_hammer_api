@@ -11,7 +11,7 @@ router.patch('/update', customerController.updateName);
 router.patch('/update_email', customerController.updateMail);
 router.patch('/update_password', verifyAccessToken, customerController.updatePassword);
 router.post('/request_reset_password', customerController.generateResetToken);
-router.post('/reset_password/:token', verifyResetToken, customerController.resetPassword);
+router.post('/reset_password/:token', customerController.resetPassword);
 router.post('/logout', customerController.logoutCustomer);
 router.post('/refresh', customerController.refreshAccessToken);
 

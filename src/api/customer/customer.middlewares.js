@@ -9,7 +9,6 @@ const verifyAccessToken = async (req, res, next) => {
 
     try {
         const decoded = jwt.verify(accessToken, process.env.ACCESS_TOKEN_SECRET);
-        console.log(decoded)
         // Check if the access token is expired
         if (decoded.exp < Date.now() / 1000) {
             // Access token has expired
@@ -47,7 +46,8 @@ const verifyAccessToken = async (req, res, next) => {
             next();
         }
     } catch (error) {
-        return res.status(401).json({ error: 'Invalid access token' });
+        console.log(error)
+        return res.status(401).json({ error: error });
     }
 };
 

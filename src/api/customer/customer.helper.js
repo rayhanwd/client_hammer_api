@@ -2,7 +2,7 @@ const jwt = require('jsonwebtoken');
 
 function generateAccessToken(customer) {
     const accessToken = jwt.sign({ customerId: customer._id }, process.env.ACCESS_TOKEN_SECRET, {
-        expiresIn: '15m',
+        expiresIn: '1m',
     });
     return accessToken;
 }
@@ -15,7 +15,9 @@ function generateResetToken(customer) {
 }
 
 function generateRefreshToken(customer) {
-    const refreshToken = jwt.sign({ customerId: customer._id }, process.env.REFRESH_TOKEN_SECRET);
+    const refreshToken = jwt.sign({ customerId: customer._id }, process.env.REFRESH_TOKEN_SECRET, {
+        expiresIn: '7d',
+    });
     return refreshToken;
 }
 

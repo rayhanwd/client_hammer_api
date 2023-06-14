@@ -128,17 +128,13 @@ exports.refreshAccessToken = async (req, res) => {
 
 exports.generateResetToken = async (req, res) => {
     try {
-        const { email } = req.body;
-
-        const { message } = await customerService.generateResetToken(email);
-
-        return res.status(200).json(message);
-
+      await customerService.generateResetToken(req, res);
     } catch (error) {
-        console.error(error);
-        return res.status(500).json({ error: 'Failed to generate reset token' });
+      console.error(error);
+      return res.status(500).json({ error: 'Failed to generate reset token' });
     }
-};
+  };
+  
 
 exports.resetPassword = async (req, res) => {
     try {
