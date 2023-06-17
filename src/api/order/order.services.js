@@ -1,60 +1,51 @@
 const Order = require('./order.model');
 const Customer = require('../customer/customer.model');
 
-exports.createOrder = async (orderData) => {
+exports.createOrder = async (userId, fname, lname, address, orderId, orderDetails, shipType, couponUsed, costs, statusTracking) => {
   try {
-    const order = await Order.create(orderData);
+
+    const customer = await Customer.findOne({ userId: userId });
+
+    const order = await Order.create({
+      customerId: customer._id,
+      customerMail: customer.email,
+      orderId,
+      orderDetails,
+      shipType,
+      couponUsed,
+      costs,
+      statusTracking
+    });
+    await Customer.findByIdAndUpdate(customer._id, {
+      $push: { orders: order._id },
+      $set: {
+        fname: fname,
+        lname: lname,
+        email: customer.email,
+        address: address
+      },
+    });
+
     return order;
   } catch (error) {
-
+    console.error('Failed to create order from services:', error);
     throw new Error('Failed to create order');
+
   }
 };
 
-exports.getCustomerOrders = async (customerId) => {
+// Get a single order by orderId
+
+exports.getSingleOrder = async (orderId) => {
   try {
-    const customer = await Customer.findById(customerId).select('-password -refresh_token');
-    if (!customer) {
-      throw new Error('Customer not found');
-    }
-
-    const orders = await Order.find({ customerId }).populate('customerId', '_id');
-
-    // Calculate the counts
-    const totalOrders = orders.length;
-
-    const pendingOrders = orders.filter(order => order.status_tracking.status === 0 || order.status_tracking.status === 1).length;
-
-    const shippingOrders = orders.filter(order => order.status_tracking.status === 2 && order.status_tracking.track_number !== '').length;
-
-    return {
-      totalOrders,
-      pendingOrders,
-      shippingOrders,
-      orders
-    };
-  } catch (error) {
-    throw new Error('Failed to fetch customer orders');
-  }
-};
-
-exports.getOneCustomerOneOrder = async (customerId, orderId) => {
-  try {
-    const customer = await Customer.findById(customerId).select('-password -refresh_token');
-    if (!customer) {
-      throw new Error('Customer not found');
-    }
-
-    const order = await Order.findOne({ _id: orderId, customerId }).populate('customerId', '_id');
-
+    const order = await Order.findById(orderId).populate("customerId");
     if (!order) {
       throw new Error('Order not found');
     }
-
     return order;
-    
   } catch (error) {
-    throw new Error('Failed to fetch customer order');
+    console.log(error)
+    throw new Error('Failed to fetch order');
   }
+};
 
-}

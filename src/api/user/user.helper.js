@@ -1,22 +1,22 @@
 const jwt = require('jsonwebtoken');
 
-function generateAccessToken(customer) {
-    const accessToken = jwt.sign({ customerId: customer._id }, process.env.ACCESS_TOKEN_SECRET, {
+function generateAccessToken(user) {
+    const accessToken = jwt.sign({ userId: user._id }, process.env.ACCESS_TOKEN_SECRET, {
         expiresIn: '1m',
     });
     return accessToken;
 }
 
-function generateResetToken(customer) {
-    const resetToken = jwt.sign({ customerId: customer._id }, process.env.RESET_TOKEN_SECRET, {
+function generateResetToken(user) {
+    const resetToken = jwt.sign({ userId: user._id }, process.env.RESET_TOKEN_SECRET, {
         expiresIn: '15m',
     });
     return resetToken;
 }
 
-function generateRefreshToken(customer) {
-    const refreshToken = jwt.sign({ customerId: customer._id }, process.env.REFRESH_TOKEN_SECRET, {
-        expiresIn: '7d',
+function generateRefreshToken(user) {
+    const refreshToken = jwt.sign({ userId: user._id }, process.env.REFRESH_TOKEN_SECRET, {
+        expiresIn: '5m',
     });
     return refreshToken;
 }

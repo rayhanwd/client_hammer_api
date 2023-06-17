@@ -2,16 +2,22 @@ const mongoose = require('mongoose');
 const { Schema } = mongoose;
 
 const customerSchema = new Schema({
-    fname: { type: String, required: true },
-    lname: { type: String, required: true },
-    email: { type: String, required: true, unique: true },
-    password: { type: String, required: true },
-    refresh_token: { type: String },
-    refresh_token_expiry: {
-        type: Date,
-        default: () => new Date(Date.now() + 7 * 24 * 60 * 60 * 1000)
+    userId: { type: Schema.Types.ObjectId, ref: 'User', required: true },
+
+    fname: { type: String, default: "" },
+    lname: { type: String, default: "" },
+    email: { type: String, default: "" },
+    address: {
+        street_address: { type: String, default: "" },
+        apart_or_unit: { type: String, default: "" },
+        city: { type: String, default: "" },
+        state: { type: String, default: "" },
+        zip: { type: String, default: "" },
     },
-    reset_token: { type: String, default: null },
+    orders: [{
+        type: Schema.Types.ObjectId,
+        ref: 'Order',
+    }]
 }, {
     versionKey: false,
 });

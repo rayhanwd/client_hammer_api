@@ -5,16 +5,15 @@ const router = express.Router();
 const productRoutes = require('./product');
 const couponRoutes = require('./coupon');
 const customerRoutes = require('./customer');
-const addressRoutes = require('./address');
-const orderRoutes = require('./order');
+const userRoutes = require('./user');
 const bannerPRoutes = require('./banner');
-
+const orderRoutes = require('./order');
 
 // Use route files
 router.use('/products', productRoutes);
 router.use('/coupons', couponRoutes);
-router.use('/customers', customerRoutes);
-router.use('/address', addressRoutes);
+router.use('/customer', customerRoutes);
+router.use('/user', userRoutes);
 router.use('/orders', orderRoutes);
 router.use('/bannerp', bannerPRoutes);
 

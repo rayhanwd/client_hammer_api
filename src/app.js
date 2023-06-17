@@ -4,12 +4,14 @@ var express = require('express');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var helmet = require("helmet");
+
+
 require('dotenv').config({ path: `${__dirname}/../.env` });
 const indexRouter = require('./routers/index');
+
 require('./db/db');
 
 var app = express();
-
 
 app.use(helmet());
 app.use(logger('dev'));
@@ -17,8 +19,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(cors({
-	origin: 'http://localhost:3000',
-	credentials: true
+    origin: 'http://localhost:3000',
+    credentials: true
 }));
 
 
