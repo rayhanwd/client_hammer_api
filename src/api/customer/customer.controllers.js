@@ -11,23 +11,6 @@ exports.getCustomerById = async (req, res) => {
     }
 };
 
-exports.getOrdersById = async (req, res) => {
-    try {
-        const { customerId } = req.params;
-
-        // Check if userId is provided
-        if (!customerId) {
-            return res.status(400).json({ error: 'customerId is required' });
-        }
-
-        const orders = await CustomerService.getOrdersById(customerId);
-
-        res.status(200).json({ orders });
-    } catch (error) {
-        console.error('Failed to get customer orders:', error);
-        res.status(500).json({ error: 'Failed to get customer orders' });
-    }
-};
 
 exports.updateCustomerInfo = async (req, res) => {
     try {

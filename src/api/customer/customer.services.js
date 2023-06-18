@@ -4,22 +4,11 @@ const Order = require('../order/order.model');
 
 exports.getCustomerById = async (customerId) => {
     try {
-        const customer = await Customer.findById(customerId);
+        const customer = await Customer.findById(customerId).select('-orders');
         return customer;
     } catch (error) {
         //console.log(error);
         throw error;
-    }
-};
-
-exports.getOrdersById = async (customerId) => {
-    try {
-        
-        const orders = await Order.find({ customerId }).populate('customerId', '-orders').lean();
-        return orders;
-    } catch (error) {
-        console.error('Failed to get customer orders:', error);
-        throw new Error('Failed to get customer orders');
     }
 };
 

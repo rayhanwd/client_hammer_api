@@ -34,6 +34,29 @@ exports.createOrder = async (userId, fname, lname, address, orderId, orderDetail
   }
 };
 
+exports.getOrdersById = async (customerId) => {
+  try {
+
+      const customer = await Customer.findOne({ _id: customerId }).select('-orders').lean();
+
+      const orders = await Order.find({ customerId }).lean();
+
+      const orderss = [
+          {
+              customer: customer
+          },
+          {
+              orders: orders
+          }
+      ];
+
+      return orderss;
+  } catch (error) {
+      console.error('Failed to get customer orders:', error);
+      throw new Error('Failed to get customer orders');
+  }
+};
+
 // Get a single order by orderId
 
 exports.getSingleOrder = async (orderId) => {

@@ -5,7 +5,7 @@ const CustomerController = require('../api/customer/customer.controllers');
 
 router.get('/customer/:customerId',CustomerController.getCustomerById);
 
-router.get('/:customerId/single', CustomerController.getOrdersById);
+// router.get('/:customerId/single', CustomerController.getOrdersById);
 
 // Update customer information
 router.put('/name', CustomerController.updateCustomerInfo);
